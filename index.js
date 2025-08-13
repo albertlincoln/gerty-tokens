@@ -1,5 +1,6 @@
 exports.tokens = [
     {
+        mnemonic: "aave",
         symbol: "optaave",
         chainId: 10,
         address: "0x76FB31fb4af56892A25e32cFC43De717950c9278"
@@ -13,6 +14,11 @@ exports.tokens = [
         symbol: "alb",
         address: "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
         chainId: 8453
+    },
+    {
+        symbol: "arb",
+        address: "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        chainId: 42161
     },
     {
         symbol: "b3",
@@ -59,6 +65,7 @@ exports.tokens = [
     },
     {
         symbol: "optlink",
+        mnemonic: "link",
         address: "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
         chainId: 10
     },
@@ -81,6 +88,11 @@ exports.tokens = [
         symbol: "luna",
         address: "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
         chainId: 8453
+    },
+    {
+        symbol: "magic",
+        address: "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+        chainId: 42161
     },
     {
         symbol: "miggles",
@@ -123,21 +135,17 @@ exports.tokens = [
         chainId: 8453
     },
     {
-        symbol: "usdc",
-        currentPrice: 1,
-        stablecoin: true,
-        address: "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-        decimals: 6
-    },
-    {
         symbol: "usdbc",
+        chainId: 8453,
         currentPrice: 1,
         stablecoin: true,
         address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
         decimals: 6
     },
     {
-        symbol: "usdcbase",
+        mnemonic: "usdc",
+        symbol: "baseusdc",
+        chainId: 8453,
         currentPrice: 1,
         stablecoin: true,
         address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
@@ -160,33 +168,55 @@ exports.tokens = [
         chainId: 10
     },
     {
+        mnemonic: "weth",
+        symbol: "optweth",
+        address: "0x4200000000000000000000000000000000000006",
+        chainId: 8453
+    },
+    {
+        mnemonic: "weth",
+        symbol: "baseweth",
+        address: "0x4200000000000000000000000000000000000006",
+        chainId: 10
+    },
+    {
+        mnemonic: "usdc",
         symbol: "baseusdc",
+        chainId: 8453,
         address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
         stablecoin: true,
         currentPrice: 1,
         decimals: 6
     },
     {
-        symbol: "baseweth",
-        address: "0x4200000000000000000000000000000000000006",
-        chainId: 8453
-    },
-    {
+        mnemonic: "usdc",
         symbol: "optusdc",
         stablecoin: true,
+        chainId: 10,
         currentPrice: 1,
         decimals: 6,
         address: "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
     },
     {
+        mnemonic: "usdt",
         symbol: "optusdt",
         currentPrice: 1,
+        chainId: 10,
         stablecoin: true,
         address: "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
         decimals: 6
     },
     {
-        symbol: "optusdt0",
+        mnemonic: "usdt",
+        symbol: "arbusdt",
+        address: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        currentPrice: 1,
+        chainId: 42161,
+        stablecoin: true,
+        decimals: 6
+    },
+    {
+        symbol: "usdt0",
         address: "0x01bff41798a0bcf287b996046ca68b395dbc1071",
         currentPrice: 1,
         stablecoin: true,
@@ -194,23 +224,23 @@ exports.tokens = [
     },
     {
         symbol: "optwbtc",
+        mnemonic: "wbtc",
         address: "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
         decimals: 8,
         chainId: 10
     },
     {
-        symbol: "optweth",
-        address: "0x4200000000000000000000000000000000000006",
-        chainId: 10
-    },
-    {
         symbol: "uniuni",
+        mnemonic: "uni",
+        chainId: 130,
         address: "0x8f187aa05619a017077f5308904739877ce9ea21"
     },
     {
         symbol: "uniusdc",
+        mnemonic: "usdc",
         address: "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         currentPrice: 1,
+        chainId: 130,
         stablecoin: true,
         decimals: 6
     },
