@@ -1,1 +1,1 @@
-export declare const tokens: Array<Record<string, any>>;
+export declare const tokens: any;
