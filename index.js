@@ -138,6 +138,7 @@ exports.tokens = [
         symbol: "usdbc",
         chainId: 8453,
         currentPrice: 1,
+        chainId: 10,
         stablecoin: true,
         address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
         decimals: 6
@@ -162,7 +163,8 @@ exports.tokens = [
         chainId: 8453
     },
     {
-        symbol: "wbtc",
+        symbol: "optwbtc",
+        mnemonic: "wbtc",
         address: "0x68f180fcce6836688e9084f035309e29bf0a2095",
         decimals: 8,
         chainId: 10
@@ -171,13 +173,13 @@ exports.tokens = [
         mnemonic: "weth",
         symbol: "optweth",
         address: "0x4200000000000000000000000000000000000006",
-        chainId: 8453
+        chainId: 10
     },
     {
         mnemonic: "weth",
         symbol: "baseweth",
         address: "0x4200000000000000000000000000000000000006",
-        chainId: 10
+        chainId: 8453
     },
     {
         mnemonic: "usdc",
@@ -220,6 +222,7 @@ exports.tokens = [
         address: "0x01bff41798a0bcf287b996046ca68b395dbc1071",
         currentPrice: 1,
         stablecoin: true,
+        chainId: 10,
         decimals: 6
     },
     {
@@ -260,3 +263,4 @@ exports.tokens = [
         chainId: 8453
     }
 ]
+
