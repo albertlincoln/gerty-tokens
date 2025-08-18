@@ -1,12 +1,12 @@
-interface Token {
+export type TokenType = {
     readonly address: string;
     readonly symbol: string;
     readonly chainId: number;
     readonly decimals?: number;
     readonly stablecoin?: boolean;
-}
-export declare const getTokenBySymbol: (symbol: string) => Partial<Token> | undefined;
-export declare function Token(props: Partial<Token>): {
+};
+export declare const getTokenBySymbol: (symbol: string) => Partial<TokenType> | undefined;
+export declare function Token(props: Partial<TokenType>): {
     decimals: number;
     stablecoin: boolean;
 } | {
@@ -58,4 +58,3 @@ export declare function Token(props: Partial<Token>): {
     currentPrice?: undefined;
     stablecoin: boolean;
 };
-export {};

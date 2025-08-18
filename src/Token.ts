@@ -1,6 +1,6 @@
 import { tokens } from './tokens';
 
-interface Token {
+export type TokenType = {
     readonly address: string
     readonly symbol: string
     readonly chainId: number
@@ -8,8 +8,8 @@ interface Token {
     readonly stablecoin?: boolean
 }
 
-export const getTokenBySymbol = function(symbol: string): Partial<Token>|undefined {
-    const _tokensFound = tokens.filter((t: Token) => {
+export const getTokenBySymbol = function(symbol: string): Partial<TokenType>|undefined {
+    const _tokensFound = tokens.filter((t: TokenType) => {
         return t.symbol == symbol
     })
 
@@ -18,11 +18,11 @@ export const getTokenBySymbol = function(symbol: string): Partial<Token>|undefin
     }
 }
 
-export function Token(props: Partial<Token>) {
+export function Token(props: Partial<TokenType>) {
     const _defaults = { decimals: 18, stablecoin: false };
-    const _token = tokens.filter((t: Token) => {
+    const _token = tokens.filter((t: TokenType) => {
                 return t.chainId == props.chainId
-            }).find((t: Token) => {
+            }).find((t: TokenType) => {
                 return t.symbol == props.symbol || t.address == props.address
             })
 
