@@ -163,13 +163,6 @@ exports.tokens = [
         chainId: 8453
     },
     {
-        symbol: "optwbtc",
-        mnemonic: "wbtc",
-        address: "0x68f180fcce6836688e9084f035309e29bf0a2095",
-        decimals: 8,
-        chainId: 10
-    },
-    {
         mnemonic: "weth",
         symbol: "optweth",
         address: "0x4200000000000000000000000000000000000006",
