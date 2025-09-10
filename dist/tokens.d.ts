@@ -6,6 +6,7 @@ export declare const tokens: ({
     decimals?: undefined;
     currentPrice?: undefined;
     stablecoin?: undefined;
+    tokenAddress?: undefined;
 } | {
     symbol: string;
     address: string;
@@ -14,14 +15,16 @@ export declare const tokens: ({
     decimals?: undefined;
     currentPrice?: undefined;
     stablecoin?: undefined;
+    tokenAddress?: undefined;
 } | {
     symbol: string;
     address: string;
-    decimals: number;
     chainId: number;
+    decimals: number;
     mnemonic?: undefined;
     currentPrice?: undefined;
     stablecoin?: undefined;
+    tokenAddress?: undefined;
 } | {
     symbol: string;
     chainId: number;
@@ -30,6 +33,7 @@ export declare const tokens: ({
     address: string;
     decimals: number;
     mnemonic?: undefined;
+    tokenAddress?: undefined;
 } | {
     mnemonic: string;
     symbol: string;
@@ -38,6 +42,16 @@ export declare const tokens: ({
     stablecoin: boolean;
     address: string;
     decimals: number;
+    tokenAddress?: undefined;
+} | {
+    decimals: number;
+    stablecoin: boolean;
+    address: string;
+    symbol: string;
+    mnemonic: string;
+    tokenAddress: string;
+    chainId: number;
+    currentPrice?: undefined;
 } | {
     symbol: string;
     mnemonic: string;
@@ -46,4 +60,5 @@ export declare const tokens: ({
     chainId: number;
     currentPrice?: undefined;
     stablecoin?: undefined;
+    tokenAddress?: undefined;
 })[];

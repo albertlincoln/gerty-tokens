@@ -33,7 +33,8 @@ export const tokens = [
     {
         symbol: "cbada",
         address: "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
-        chainId: 8453
+        chainId: 8453,
+        decimals: 6
     },
     {
         symbol: "cbbtc",
@@ -199,6 +200,15 @@ export const tokens = [
         stablecoin: true,
         address: "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
         decimals: 6
+    },
+    {
+        decimals: 6,
+        stablecoin: true,
+        address: '0x01bff41798a0bcf287b996046ca68b395dbc1071',
+        symbol: 'optusdt0',
+        mnemonic: 'optusdt0',
+        tokenAddress: '0x01bff41798a0bcf287b996046ca68b395dbc1071',
+        chainId: 10
     },
     {
         mnemonic: "usdt",
