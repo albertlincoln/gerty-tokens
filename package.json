@@ -1,6 +1,6 @@
 {
   "name": "@gerty/gerty-tokens",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A list of tokens and a basic token interface",
   "exports": {
     ".": "./index.js",
