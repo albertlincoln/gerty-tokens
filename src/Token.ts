@@ -6,6 +6,8 @@ export type TokenType = {
     readonly chainId: number
     readonly decimals?: number
     readonly stablecoin?: boolean
+    currentPrice?: number
+    price?: Record<string, any>
 }
 
 export const getTokenBySymbol = function(symbol: string): Partial<TokenType>|undefined {

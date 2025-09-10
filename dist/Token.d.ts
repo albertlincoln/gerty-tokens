@@ -4,6 +4,8 @@ export type TokenType = {
     readonly chainId: number;
     readonly decimals?: number;
     readonly stablecoin?: boolean;
+    currentPrice?: number;
+    price?: Record<string, any>;
 };
 export declare const getTokenBySymbol: (symbol: string) => Partial<TokenType> | undefined;
 export declare function Token(props: Partial<TokenType>): {
