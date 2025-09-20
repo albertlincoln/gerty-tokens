@@ -10,12 +10,12 @@ exports.tokens = [
     },
     {
         symbol: "aero",
-        address: "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+        address: "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
         chainId: 8453
     },
     {
         symbol: "alb",
-        address: "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4",
+        address: "0x1dd2d631c92b1aCdFCDd51A0F7145A50130050C4",
         chainId: 8453
     },
     {
@@ -25,12 +25,12 @@ exports.tokens = [
     },
     {
         symbol: "b3",
-        address: "0xb3b32f9f8827d4634fe7d973fa1034ec9fddb3b3",
+        address: "0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3",
         chainId: 8453
     },
     {
         symbol: "brett",
-        address: "0x532f27101965dd16442e59d40670faf5ebb142e4",
+        address: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
         chainId: 8453
     },
     {
@@ -47,18 +47,18 @@ exports.tokens = [
     },
     {
         symbol: "cbxrp",
-        address: "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+        address: "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
         decimals: 6,
         chainId: 8453
     },
     {
         symbol: "champs",
-        address: "0xeb6d78148f001f3aa2f588997c5e102e489ad341",
+        address: "0xEb6d78148F001F3aA2f588997c5E102E489Ad341",
         chainId: 8453
     },
     {
         symbol: "clanker",
-        address: "0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
+        address: "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
         chainId: 8453
     },
     {
@@ -75,7 +75,7 @@ exports.tokens = [
     },
     {
         symbol: "ldo",
-        address: "0xfdb794692724153d1488ccdbe0c56c252596735f",
+        address: "0xFdb794692724153d1488CcdBE0C56c252596735F",
         chainId: 10
     },
     {
@@ -85,12 +85,12 @@ exports.tokens = [
     },
     {
         symbol: "benji",
-        address: "0xbc45647ea894030a4e9801ec03479739fa2485f0",
+        address: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
         chainId: 8453
     },
     {
         symbol: "luna",
-        address: "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
+        address: "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4",
         chainId: 8453
     },
     {
@@ -105,7 +105,7 @@ exports.tokens = [
     },
     {
         symbol: "morpho",
-        address: "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842",
+        address: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
         chainId: 8453
     },
     {
@@ -115,7 +115,7 @@ exports.tokens = [
     },
     {
         symbol: "odos",
-        address: "0xca73ed1815e5915489570014e024b7ebe65de679",
+        address: "0xca73ed1815e5915489570014e024b7EbE65dE679",
         chainId: 8453
     },
     {
@@ -125,7 +125,7 @@ exports.tokens = [
     },
     {
         symbol: "ovn",
-        address: "0xa3d1a8deb97b111454b294e2324efad13a9d8396",
+        address: "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396",
         chainId: 8453
     },
     {
@@ -135,7 +135,7 @@ exports.tokens = [
     },
     {
         symbol: "toshi",
-        address: "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
+        address: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
         chainId: 8453
     },
     {
@@ -152,7 +152,7 @@ exports.tokens = [
         chainId: 8453,
         currentPrice: 1,
         stablecoin: true,
-        address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         decimals: 6
     },
     {
@@ -162,7 +162,7 @@ exports.tokens = [
     },
     {
         symbol: "virtual",
-        address: "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+        address: "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
         chainId: 8453
     },
     {
@@ -181,7 +181,7 @@ exports.tokens = [
         mnemonic: "usdc",
         symbol: "baseusdc",
         chainId: 8453,
-        address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         stablecoin: true,
         currentPrice: 1,
         decimals: 6
@@ -201,22 +201,20 @@ exports.tokens = [
         currentPrice: 1,
         chainId: 10,
         stablecoin: true,
-        address: "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        address: "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
         decimals: 6
     },
     {
         decimals: 6,
         stablecoin: true,
-        address: '0x01bff41798a0bcf287b996046ca68b395dbc1071',
-        symbol: 'optusdt0',
-        mnemonic: 'optusdt0',
-        tokenAddress: '0x01bff41798a0bcf287b996046ca68b395dbc1071',
+        address: "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+        symbol: "optusdt0",
         chainId: 10
     },
     {
         mnemonic: "usdt",
         symbol: "arbusdt",
-        address: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        address: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         currentPrice: 1,
         chainId: 42161,
         stablecoin: true,
@@ -224,7 +222,7 @@ exports.tokens = [
     },
     {
         symbol: "usdt0",
-        address: "0x01bff41798a0bcf287b996046ca68b395dbc1071",
+        address: "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
         currentPrice: 1,
         stablecoin: true,
         chainId: 10,
@@ -241,7 +239,7 @@ exports.tokens = [
         symbol: "uniuni",
         mnemonic: "uni",
         chainId: 130,
-        address: "0x8f187aa05619a017077f5308904739877ce9ea21"
+        address: "0x8f187aA05619a017077f5308904739877ce9eA21"
     },
     {
         symbol: "uniusdc",
@@ -259,12 +257,12 @@ exports.tokens = [
     },
     {
         symbol: "wld",
-        address: "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+        address: "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
         chainId: 10
     },
     {
         symbol: "zora",
-        address: "0x1111111111166b7fe7bd91427724b487980afc69",
+        address: "0x1111111111166b7FE7bd91427724B487980aFc69",
         chainId: 8453
-    }
+    },
 ];
