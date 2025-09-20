@@ -16,33 +16,33 @@ export declare function Token(props: Partial<TokenType>): {
     symbol: string;
     chainId: number;
     address: string;
-    decimals: number;
     currentPrice?: undefined;
     stablecoin: boolean;
+    decimals: number;
 } | {
     symbol: string;
     address: string;
     chainId: number;
     mnemonic?: undefined;
-    decimals: number;
     currentPrice?: undefined;
     stablecoin: boolean;
-} | {
-    symbol: string;
-    address: string;
-    chainId: number;
     decimals: number;
-    mnemonic?: undefined;
-    currentPrice?: undefined;
-    stablecoin: boolean;
 } | {
     symbol: string;
-    chainId: number;
     currentPrice: number;
     stablecoin: boolean;
     address: string;
     decimals: number;
+    chainId: number;
     mnemonic?: undefined;
+} | {
+    symbol: string;
+    address: string;
+    chainId: number;
+    decimals: number;
+    mnemonic?: undefined;
+    currentPrice?: undefined;
+    stablecoin: boolean;
 } | {
     mnemonic: string;
     symbol: string;

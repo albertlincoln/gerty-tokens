@@ -14,6 +14,27 @@ exports.tokens = [
         chainId: 8453
     },
     {
+        symbol: "avaxlink",
+        address: "0x5947BB275c521040051D82396192181b413227A3",
+        chainId: 43114
+    },
+    {
+        symbol: "avaxusdt",
+        currentPrice: 1,
+        stablecoin: true,
+        address: "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+        decimals: 6,
+        chainId: 43114
+    },
+    {
+        symbol: "avaxusdc",
+        currentPrice: 1,
+        stablecoin: true,
+        address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        decimals: 6,
+        chainId: 43114
+    },
+    {
         symbol: "alb",
         address: "0x1dd2d631c92b1aCdFCDd51A0F7145A50130050C4",
         chainId: 8453
@@ -164,6 +185,11 @@ exports.tokens = [
         symbol: "virtual",
         address: "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
         chainId: 8453
+    },
+    {
+        symbol: "wavax",
+        address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        chainId: 43114
     },
     {
         mnemonic: "weth",
