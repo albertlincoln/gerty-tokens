@@ -83,6 +83,11 @@ exports.tokens = [
         chainId: 8453
     },
     {
+        symbol: "comp",
+        address: "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
+        chainId: 8453
+    },
+    {
         symbol: "lbtc",
         address: "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
         decimals: 8,
