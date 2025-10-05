@@ -248,7 +248,7 @@ exports.tokens = [
         chainId: 10,
         stablecoin: true,
         address: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-        decimals: 6
+        decimals: 18
     },
     {
         decimals: 6,
