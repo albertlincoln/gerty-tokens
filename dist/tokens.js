@@ -155,6 +155,12 @@ exports.tokens = [
         chainId: 8453
     },
     {
+        mnemonic: "sol",
+        symbol: "unisol",
+        address: "0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97",
+        chainId: 130
+    },
+    {
         symbol: "snx",
         address: "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
         chainId: 10
@@ -233,6 +239,15 @@ exports.tokens = [
         chainId: 10,
         stablecoin: true,
         address: "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+        decimals: 6
+    },
+    {
+        mnemonic: "dai",
+        symbol: "optdai",
+        currentPrice: 1,
+        chainId: 10,
+        stablecoin: true,
+        address: "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
         decimals: 6
     },
     {
