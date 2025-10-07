@@ -157,6 +157,7 @@ exports.tokens = [
     {
         mnemonic: "sol",
         symbol: "unisol",
+        decimals: 9,
         address: "0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97",
         chainId: 130
     },

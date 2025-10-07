@@ -46,6 +46,14 @@ export declare function Token(props: Partial<TokenType>): {
 } | {
     mnemonic: string;
     symbol: string;
+    decimals: number;
+    address: string;
+    chainId: number;
+    currentPrice?: undefined;
+    stablecoin: boolean;
+} | {
+    mnemonic: string;
+    symbol: string;
     chainId: number;
     currentPrice: number;
     stablecoin: boolean;
@@ -59,12 +67,4 @@ export declare function Token(props: Partial<TokenType>): {
     chainId: number;
     mnemonic?: undefined;
     currentPrice?: undefined;
-} | {
-    symbol: string;
-    mnemonic: string;
-    address: string;
-    decimals: number;
-    chainId: number;
-    currentPrice?: undefined;
-    stablecoin: boolean;
 };
