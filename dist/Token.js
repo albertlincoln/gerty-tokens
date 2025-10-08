@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getTokenBySymbol = void 0;
-exports.Token = Token;
+exports.Token = exports.getTokenBySymbol = void 0;
 const tokens_1 = require("./tokens");
 const getTokenBySymbol = function (symbol) {
     const _tokensFound = tokens_1.tokens.filter((t) => {
@@ -21,3 +20,4 @@ function Token(props) {
     });
     return Object.assign(Object.assign({}, _defaults), _token);
 }
+exports.Token = Token;

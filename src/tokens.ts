@@ -32,6 +32,11 @@ export const tokens = [
         chainId: 43114
     },
     {
+        symbol: "aaveoptweth",
+        address: "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+        chainId: 10
+    },
+    {
         symbol: "alb",
         address: "0x1dd2d631c92b1aCdFCDd51A0F7145A50130050C4",
         chainId: 8453
@@ -125,6 +130,11 @@ export const tokens = [
         symbol: "miggles",
         address: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
         chainId: 8453
+    },
+    {
+        symbol: "moonoptweth",
+        address: "0x8E08617b0d66359D73Aa11E11017834C29155525",
+        chainId: 10
     },
     {
         symbol: "morpho",

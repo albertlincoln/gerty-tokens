@@ -3,7 +3,6 @@
     "module": "nodenext",
     "target": "es6", // set to the *lowest* target you support
     "strict": true,
-    "verbatimModuleSyntax": false,
     "moduleResolution": "nodenext",
     "declaration": true,
     "rootDir": "src",
