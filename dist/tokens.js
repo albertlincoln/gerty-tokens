@@ -137,7 +137,8 @@ exports.tokens = [
     {
         symbol: "moonoptusdc",
         address: "0x8E08617b0d66359D73Aa11E11017834C29155525",
-        chainId: 10
+        chainId: 10,
+        decimals: 8
     },
     {
         symbol: "morpho",
