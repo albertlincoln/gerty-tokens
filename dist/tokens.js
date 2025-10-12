@@ -223,7 +223,7 @@ exports.tokens = [
     {
         mnemonic: "wsteth",
         symbol: "optwsteth",
-        address: "0x4200000000000000000000000000000000000006",
+        address: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
         chainId: 10
     },
     {
