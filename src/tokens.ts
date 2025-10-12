@@ -218,6 +218,12 @@ export const tokens = [
         chainId: 10
     },
     {
+        mnemonic: "wsteth",
+        symbol: "optwsteth",
+        address: "0x4200000000000000000000000000000000000006",
+        chainId: 10
+    },
+    {
         mnemonic: "weth",
         symbol: "baseweth",
         address: "0x4200000000000000000000000000000000000006",
